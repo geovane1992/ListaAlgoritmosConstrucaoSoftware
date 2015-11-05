@@ -5,7 +5,7 @@
  */
 package br.ufg.algoritmo3;
 
-import com.ufg.somanaturais.somaNaturais;
+import br.ufg.algoritmo3.somaNaturais;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

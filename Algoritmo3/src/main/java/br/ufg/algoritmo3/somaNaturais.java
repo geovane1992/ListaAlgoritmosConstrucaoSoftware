@@ -1,4 +1,4 @@
-package com.ufg.somanaturais;
+package br.ufg.algoritmo3;
 
 /**
  * Método criado para calcular Somas Naturais
