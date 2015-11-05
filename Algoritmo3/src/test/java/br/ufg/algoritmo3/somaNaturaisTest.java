@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ufg.somanaturais;
+package br.ufg.algoritmo3;
 
+import com.ufg.somanaturais.somaNaturais;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author alunoinf
+ * @author GAOliveira
  */
 public class somaNaturaisTest {
     
