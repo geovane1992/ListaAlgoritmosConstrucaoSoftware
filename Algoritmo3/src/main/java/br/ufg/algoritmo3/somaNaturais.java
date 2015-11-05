@@ -42,7 +42,7 @@ public class somaNaturais {
   
     public static void main(String[] args) {
         
-        System.out.println(somaNaturais(9));
+        System.out.println(somaNaturais(1));
     }
     
 }

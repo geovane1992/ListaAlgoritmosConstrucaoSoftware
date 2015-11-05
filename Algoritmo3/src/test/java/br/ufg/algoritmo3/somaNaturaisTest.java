@@ -22,7 +22,7 @@ public class somaNaturaisTest {
     @org.junit.Test
     public void testSomaNaturais() {
         System.out.println("somaNaturais");
-        int n = 2;
+        int n = 1;
         int expResult = 1;
         int result = somaNaturais.somaNaturais(n);
         assertEquals(expResult, result);
