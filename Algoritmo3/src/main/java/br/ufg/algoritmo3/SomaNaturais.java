@@ -5,7 +5,7 @@ package br.ufg.algoritmo3;
  */
 
 
-public class somaNaturais{
+public class SomaNaturais{
     
     /**
      * Obtém o resultado de uma soma natural
