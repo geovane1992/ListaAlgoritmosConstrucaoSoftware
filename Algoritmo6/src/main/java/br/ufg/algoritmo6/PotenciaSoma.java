@@ -14,7 +14,7 @@ public class PotenciaSoma {
          
          while(i < potencia){
              
-             p = algoritmo4.Produto(p, base);
+             p = br.ufg.algoritmo4.Produto(p, base);
              i = i + 1;
          }
          
