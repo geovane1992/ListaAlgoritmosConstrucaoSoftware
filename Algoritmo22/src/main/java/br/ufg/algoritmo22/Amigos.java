@@ -1,52 +1,33 @@
 package br.ufg.algoritmo22;
 
 /**
- * Servi√ßo oferecidos para cacular se duas pessoas s√£o amigas
+ * MÈtodo criado para calcular se 2 indivÌduos s„o amigos.
  */
 
-public class Amigoss {
+public class Amigos {
     
     /**
-     * Vedrifica se dias pessoa s√£o amigas.
+     * @param n v·ri·vel1 que define o primeiro individuo. 
+     * @param m v·ri·vel2 que define o segundo indivÌduo. 
      *
-     * @return O valor true se forem amigas e false caso n√£o sejam.
-     *
-     * @throws IllegalArgumentException Caso o valor dos par√¢metros sejam 
-     * menores ou igual a 0.
+     * @return Se È ou nao amigos.
+     * 
+     * @throws IllegalArgumentException Caso a vari·vel n ou m receba um valor menor ou igual a 0 entrar· no Exception .
      */
-
-    public static double somaDivisores(double x){
-        
-        if (x <= 0) {
-            throw new IllegalArgumentException("Informe um valor v√°lido para n!");
-        }
-        
-       double d = 2;
-       double s = 1;
-       
-       while(d <= (x/2)){
-           if((x%d) == 0){
-               s = s + d;
-           }
-           d = d + 1;
-       }
-       return s;
-    }
     
-    public static boolean amigos(double n, double m){
-        
-         if (n <= 0 || m <= 0) {
-            throw new IllegalArgumentException("Informe um valor maior que 0 para n e m!");
-        }
-         
-         double sn = somaDivisores(n);
-         double sm = somaDivisores(m);
-
-         
-         if(sn == m && sm == n){
-             return true;
-         }else{
-             return false;
+    public static boolean amigos(int n, int m){
+        if (n <= 0 || m <= 0) {
+                throw new IllegalArgumentException("Informe uma valor > 0 para n e > 0 para m!");
          }
+        
+        double sn = br.ufg.algoritmo23.SomaDivisores.somaDivisores(n);
+        double sm = br.ufg.algoritmo23.SomaDivisores.somaDivisores(m);
+        
+        if(sn == m && sm == n){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
