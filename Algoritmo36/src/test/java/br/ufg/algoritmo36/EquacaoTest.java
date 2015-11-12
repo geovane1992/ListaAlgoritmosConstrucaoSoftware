@@ -13,9 +13,9 @@ public class EquacaoTest {
     @Test
     public void testEquacao() {
         System.out.println("equacao");
-        double expResult = 0.0;
+        double expResult = 6489;
         double result = Equacao.equacao();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 6489);
         
     }
 
