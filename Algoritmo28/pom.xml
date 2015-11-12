@@ -24,16 +24,16 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>br.ufg</groupId>
-            <artifactId>Algoritmo4</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>br.ufg</groupId>
+            <artifactId>Algoritmo4</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 </project>
