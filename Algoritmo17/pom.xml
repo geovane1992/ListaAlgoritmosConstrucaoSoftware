@@ -7,6 +7,7 @@
 
     <artifactId>Algoritmo17</artifactId>
     <packaging>jar</packaging>
+    
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -17,7 +18,7 @@
         <dependency>
             <groupId>br.ufg</groupId>
             <artifactId>Algoritmo4</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <type>jar</type>
         </dependency>
     </dependencies>
