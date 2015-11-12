@@ -1,6 +1,6 @@
 package br.ufg.algoritmo43;
 
 
-public class Permutacaoo {
+public class Permutacao {
     
 }
